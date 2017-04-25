@@ -1,8 +1,14 @@
 #!/usr/bin/php
 <?php
 
-# configurable settings
-#######################
+/*
+    автоматическая генерация релиза с апдейтом индексного файла
+
+*/
+
+
+// configurable settings
+//#######################
 $base_url = "https://night-ghost.github.io/MightyCore/";
 $target_list = [ "avr" ];
 $host_list = [ "linux" ];
@@ -56,7 +62,7 @@ function tar_gz($directory, $version) {
 
   @unlink($tarfile);
   system("tar zcf $tarfile --group=nobody --owner=nobody $directory");
-  $sha256 = hash('sha256',file_get_contents($tarfile, LOCK_EX) ); //`sha256sum $tarfile`;
+  $sha256 = hash('sha256',file_get_contents($tarfile, LOCK_EX) );
   
   $filestats = stat($tarfile);
 

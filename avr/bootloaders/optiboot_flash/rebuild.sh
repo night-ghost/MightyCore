@@ -1,0 +1,9 @@
+#!/bin/sh
+
+make anio644p OPTI_BAUD=57600 UART=0 LED_START_FLASHES=2 -BIGBOOT AVR_FREQ=16000000L LED=A3
+
+# for modem
+#make anio644p OPTI_BAUD=57600 UART=0 LED_START_FLASHES=2 -BIGBOOT AVR_FREQ=16000000L LED_B=5 -DLED_P=C
+
+mv -f optiboot_anio644p.hex atmega644p/optiboot_flash_atmega644p_57600_16000000L.hex
+
