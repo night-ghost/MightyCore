@@ -1,3 +1,8 @@
+this fork have bootloader, with 57600 and working EEPROM, no other changes
+
+original Readme follows
+--------
+
 # MightyCore
 An Arduino core for large, breadboard friendly AVRs, all running [Optiboot 6](https://github.com/Optiboot/optiboot). Major libraries such as SD, Servo, SPI and Wire are modified to work with this core. Still, a large amount of third-party libraries often works without any modifications. 
 <br/> <br/>
