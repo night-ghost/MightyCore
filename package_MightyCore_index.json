@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "MightyCore",
+            "maintainer": "MCUdude",
+            "websiteURL": "https://github.com/MCUdude/MightyCore",
+            "email": "",
+            "help": {
+                "online": "http://forum.arduino.cc/index.php?topic=379427"
+            },
+            "platforms": [
+                {
+                    "name": "MightyCore",
+                    "architecture": "avr",
+                    "version": "1.0.9",
+                    "category": "Contributed",
+                    "url": "https://night-ghost.github.io/MightyCore/avr-1.0.9.zip",
+                    "archiveFileName": "avr-1.0.9.zip",
+                    "checksum": "SHA-256:c5a3534d66fe99860138e84fe513afd84a7ebc6abeff8843c63218a04d7db85c",
+                    "size": 726803,
+                    "boards": [
+                        {
+                            "name": "ATmega1284/P"
+                        },
+                        {
+                            "name": "ATmega644/P/PA/A"
+                        },
+                        {
+                            "name": "ATmega324P/PA/A"
+                        },
+                        {
+                            "name": "ATmega164P/PA/A"
+                        },
+                        {
+                            "name": "ATmega32"
+                        },
+                        {
+                            "name": "ATmega16"
+                        },
+                        {
+                            "name": "ATmega8535"
+                        }
+                    ],
+                    "toolsDependencies": []
+                }
+            ],
+            "tools": []
+        }
+    ]
+}
