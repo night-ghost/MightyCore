@@ -42,6 +42,40 @@
                         }
                     ],
                     "toolsDependencies": []
+                },
+                {
+                    "name": "MightyCore",
+                    "architecture": "avr",
+                    "version": "1.0.10",
+                    "category": "Contributed",
+                    "url": "https://night-ghost.github.io/MightyCore/avr-1.0.10.zip",
+                    "archiveFileName": "avr-1.0.10.zip",
+                    "checksum": "SHA-256:c6dd53aa5f250f6b10568cf7a956c6fed081c725406ba22db46b28d4b7fff5a0",
+                    "size": 732113,
+                    "boards": [
+                        {
+                            "name": "ATmega1284/P"
+                        },
+                        {
+                            "name": "ATmega644/P/PA/A"
+                        },
+                        {
+                            "name": "ATmega324P/PA/A"
+                        },
+                        {
+                            "name": "ATmega164P/PA/A"
+                        },
+                        {
+                            "name": "ATmega32"
+                        },
+                        {
+                            "name": "ATmega16"
+                        },
+                        {
+                            "name": "ATmega8535"
+                        }
+                    ],
+                    "toolsDependencies": []
                 }
             ],
             "tools": []
