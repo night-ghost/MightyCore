@@ -39,6 +39,31 @@ PCINT15-8: D7-0    : bit 1
 PCINT31-24: D15-8  : bit 3
 PCINT23-16: D23-16 : bit 2
 PCINT7-0: D31-24   : bit 0
+
+
+         (D 5)    B5     1 /\ 44     B4 (D 4)
+         (D 6)    B6    2 /O \ 43    B3 (D 3)
+         (D 7)    B7   3 /    \ 42   B2 (D 2)
+              /Reset  4 /      \ 41  B1 (D 1)
+              Vcc    5 /        \ 40 B0 (D 0)
+              Gnd   6 /          \ 39  GND
+              Xt1  7 /            \ 38 Vcc
+              Xt2 8 /              \ 37    A0  (A0 / D24)
+ (D 8)    D0     9 /                \ 36   A1  (A1 / D25)
+ (D 9)    D1   10 /                  \ 35  A2  (A2 / D26)
+ (D 10)   D2  11 /   TQFP-44          \ 34 A3  (A3 / D27)
+ (D 11)   D3  12 \                    / 33 A4  (A4 / D28)
+ (D 12)   D4   13 \                  / 32  A5  (A5 / D29)
+ (D 13)   D5    14 \                / 31   A6  (A6 / D30)
+ (D 14)   D6     15 \              / 30    A7  (A7 / D31)
+ (D 15)   D7      16 \            / 29 ARef
+              Vcc  17 \          / 28  AGND
+              GND   18 \        / 27   AVcc
+         (D 16)   C0 19 \      / 26 C7 (D 23)
+         (D 17)   C1  20 \    / 25  C6 (D 22)
+         (D 18)   C2   21 \  / 24   C5 (D 21)
+         (D 19)   C3    22 \/ 23    C4 (D 20)
+
 */
 
 #define STANDARD_PINOUT

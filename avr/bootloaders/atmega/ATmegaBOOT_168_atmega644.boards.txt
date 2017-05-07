@@ -1,0 +1,21 @@
+##################################################
+# atmega644: OSD /w atmega644p (ATmegaBOOT_168.c)
+##################################################
+atmega644.name=OSD w/ atmega644p (ATmegaBOOT_168.c)
+atmega644.build.mcu=atmega644p
+atmega644.build.f_cpu=16000000L
+atmega644.build.core=OSD
+# atmega644.build.variant=
+atmega644.upload.protocol=stk500
+atmega644.upload.maximum_size=63488
+atmega644.upload.speed=57600
+atmega644.bootloader.path=atmega
+atmega644.bootloader.file=ATmegaBOOT_168_atmega644.hex
+#    text	   data	    bss	    dec	    hex	filename
+#    1450	      2	    267	   1719	    6b7	ATmegaBOOT_168_atmega644.elf
+atmega644.bootloader.low_fuses=0xFF
+atmega644.bootloader.high_fuses=0xD4
+atmega644.bootloader.extended_fuses=0xFD
+atmega644.bootloader.unlock_bits=0x0f
+atmega644.bootloader.lock_bits=0x3f
+##################################################
